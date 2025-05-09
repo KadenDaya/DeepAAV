@@ -4,8 +4,8 @@ from ui.main import MainWindow
 
 def main():
     app = QApplication(sys.argv)
-    window = MainWindow()
-    window.show()
+    w = MainWindow()
+    w.show()
     sys.exit(app.exec())
 
 if __name__ == "__main__":
