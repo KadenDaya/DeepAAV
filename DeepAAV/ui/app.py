@@ -5,12 +5,12 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle('DeepAAV 0.0.1-alpha')
+        self.setWindowTitle('DeepAAV v0.1.0-alpha')
 
 if __name__ == '__main__':
     app = QApplication([])
 
-    window = MainWindow
+    window = MainWindow()
     window.show()
 
     app.exec()
