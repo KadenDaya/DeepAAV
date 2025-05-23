@@ -10,4 +10,4 @@ venv.bak/
 .cursorignore
 .cursorindexingignore
 
-**/pycache
+**/__pycache__
